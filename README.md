@@ -1,3 +1,5 @@
+This Fork impliments the FreeImage libs from https://github.com/Yellow-Dog-Man/FreeImage/
+
 # Unity Asynchronous Image Loader
 
 [`ImageConversion.LoadImage`](https://docs.unity3d.com/ScriptReference/ImageConversion.LoadImage.html) and `Texture2D.LoadImage` are slow when loading large images (greater than 2K) at runtime. They blocks the Unity main thread when loading the image for a duration between a hundred milliseconds and even a few seconds. This is a dealbreaker for those games and applications that want to load those images programmatically at runtime.
